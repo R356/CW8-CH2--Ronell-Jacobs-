@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animateCSS/1.2.2/jquery.animatecss.js" integrity="sha512-lJWxWq+ZKne/GXwWvHKaeKZeJeAgg9p6nDFQAz1RjVKHhlO3fnMat+5AU5ifciSIt/wsu0aoldK0l/Kxpga95A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Firebase Form</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="brand">
+            <pan>Younglings</pan> South-Africa</h1>
+        <div class="wrapper">
+            <div class="company-info">
+                <h3>Younglings South-Africa</h3>
+                <ul>
+                    <li><i class="fa fa-road"></i>31 LowerLong Street</li>
+                    <li><i class="fa fa-phone"></i>+27 848-916-824</li>
+                    <li><i class="fa fa-envelope"></i>ronell.jacobs@younglings.africa</li>
+                </ul>
+                <div class="contact">
+                    <h3>Email Us</h3>
+                    <form action="ronell.jacobs@younglings.africa">
+                        <p>
+                            <label>Name</label>
+                            <input type="text" name="name" id="name" required>
+                        </p>
+                        <p>
+                            <label>Company</label>
+                            <input type="text" name="company" id="company" required>
+                        </p>
+                        <p>
+                            <label>Email Address</label>
+                            <input type="text" name="email" id="email" required>
+                        </p>
+                        <p>
+                            <label>Phone Number</label>
+                            <input type="text" name="phone" id="phone" required>
+                        </p>
+                        <p class="full">
+                            <label>Message</label>
+                            <textarea name="message" row="5" id="message"></textarea>
+                        </p>
+
+                        <p class="full">
+                            <button type="submit">Submit</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+        <script src="main.js"></script>
+
+</body>
+
+</html>
